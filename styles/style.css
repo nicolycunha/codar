@@ -1,9 +1,12 @@
 *{
   margin: 0;
+  padding: 0;
 }
 
 body{
   font-family: 'Roboto', sans-serif;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 header{
@@ -142,16 +145,15 @@ input{
   margin-left: 10px;
 }
 
-article{
+.experience{
   background-color: rgb(233, 233, 233);
   border-radius: 15px;
   display: flex;  
   width: 40vw;
-  height: 20vh;
-  
+  word-wrap: break-word;
 }
 
-section article:last-child{
+section .experience:last-child{
   margin-left: 40px;
 }
 
@@ -183,16 +185,17 @@ section article:last-child{
 
 .infos span{
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 footer{
   background-color: #000000;
   color: #ffffff;
-  padding: 60px;
+  padding: 120px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-
+  margin: 0;
   height: 20vh;
   font-size: 1.2rem;
 }
@@ -223,12 +226,9 @@ address span:last-child{
   text-decoration: underline;
 }
 
-
-
 .social-medias{
   display: flex;
   justify-content: space-between;
-  gap: 1;
 }
 
 .social-medias i{

@@ -1,0 +1,13 @@
+@media (max-width: 761px){
+  nav{
+    flex-direction: column;
+  }
+
+  .logo{
+    margin-bottom: 30px;
+  }
+
+  nav ul li:last-child{
+    display: none;
+  }
+}
